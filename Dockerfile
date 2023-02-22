@@ -1,5 +1,5 @@
 FROM anasty17/mltb:dev
-
+EXPOSE 80
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 
